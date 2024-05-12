@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(231, 231, 231);
+    margin-top: 90px;
+  }
+
+
+  .con{
+    max-width: 1200px;
+    width: 100%;
+    background: white;
+    padding: 40px;
+    border-radius: 4px;
+}
+
+.con h1{
+    text-align: center;
+    color: rgb(55, 55, 55);
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+form .flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+form .flex .con-in {
+    flex: 1;
+}
+
+form .flex .con-in span,
+.txt-div span{
+    color: red;
+}
+
+form .flex .con-in label,
+.txt-div label{
+    font-weight: 300;
+    font-size: 14px;
+}
+
+form .flex .con-in input{
+    width: 100%;
+    border: 1px solid lightslategray;
+    padding: 8px 6px;
+    border-radius: 4px;
+}
+
+textarea{
+    width: 100%;
+}
+
+
+.btn-flex{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.btn-flex .back{
+    border: 1px solid black;
+    background: transparent;
+    transition: 0.3s ease;
+}
+
+.btn-flex .back:hover{
+    background: rgb(220, 220, 220);
+    border: 1px solid transparent;
+}
+
+.btn-flex button{
+    padding: 6px 40px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-flex .next{
+    background: rgb(17, 129, 64);
+    color: white;
+    border: 1px solid rgb(17, 129, 64);
+    transition: 0.3s ease;
+}
+
+.btn-flex .next:hover{
+    background: rgb(9, 164, 74);
+}

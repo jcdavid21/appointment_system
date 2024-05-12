@@ -1,0 +1,89 @@
+body{
+    height: 100vh;
+}
+.con{
+    max-width: 1000px;
+    width: 100%;
+    background: white;
+    border-radius: 4px;
+    padding: 40px;
+    font-size: 18px;
+    position: relative;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+main{
+    height: 100%;
+    background: lightgray;
+}
+
+.con h1{
+    text-align: center;
+    color: rgb(55, 55, 55);
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid lightgray;
+}
+
+.con .title{
+    color: green;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.con .context{
+    line-height: 32px;
+    font-weight: 300;
+}
+
+.con .context span{
+    font-weight: 600;
+}
+
+.flex, .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.flex .check label{
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.btn{
+    position: absolute;
+    bottom: -18px;
+    left: 0;
+    right: 0;
+}
+
+.btn button{
+    background-color: rgb(17, 129, 64);
+    color: white;
+    border: none;
+    padding: 12px 60px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn button:hover{
+    background: rgb(11, 169, 77);
+}

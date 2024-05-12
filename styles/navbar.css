@@ -1,0 +1,37 @@
+nav .img-con{
+    height: 120px;
+    width: 120px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgb(17, 129, 64);
+    padding: 6px 12px;
+    gap: 12px;
+}
+
+nav .text, nav span{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    line-height: 50px;
+}
+
+nav .text span{
+    letter-spacing: 13px;
+}
+
+
+
+
